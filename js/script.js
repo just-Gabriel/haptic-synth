@@ -133,14 +133,18 @@ document.getElementById("uploadForm").addEventListener("submit", function (e) {
       return response.json();
     })
     .then((data) => {
-      const pattern = data.pattern;
-      selectedPattern = pattern;
+  const pattern = data.pattern;
+  const amplitude = data.amplitude || [];
+  selectedPattern = pattern;
 
-      // 🔁 On garde la description actuelle, mais on affiche le pattern ailleurs
-      desc.textContent = "Pattern généré personnalisé prêt à être testé";
-      generated.textContent = `▶️ Pattern généré : [${pattern.join(", ")}]`;
-      btn.disabled = false;
-      setupVibrationButton();
+  desc.textContent = "Pattern généré personnalisé prêt à être testé";
+  generated.innerHTML = `
+    <b>Pattern :</b> [${pattern.join(", ")}]<br>
+    <b>Amplitude :</b> [${amplitude.join(", ")}]
+  `;
+  btn.disabled = false;
+  setupVibrationButton();
+
 
       // === Affichage .ahap iOS ou erreur ===
       const ahapTextArea = document.getElementById('ahapJson');
@@ -199,3 +203,186 @@ function setupVibrationButton() {
     simulateVisualFeedback(selectedPattern);
   };
 }
+
+// ========================
+// SYNTHETISEUR HAPTIQUE
+// ========================
+
+// Modèle : un segment = { type: "vibration" | "pause", duration: ms, intensity: 0-255 (pour vibration) }
+let synthSegments = [];
+
+// Ajout de segment (vibration ou pause)
+document.getElementById("synthAddVibration").onclick = () => {
+  synthSegments.push({
+    type: "vibration",
+    duration: 200,     // par défaut
+    intensity: 255     // max par défaut
+  });
+  renderSynthSegments();
+};
+document.getElementById("synthAddPause").onclick = () => {
+  synthSegments.push({
+    type: "pause",
+    duration: 100      // par défaut
+  });
+  renderSynthSegments();
+};
+
+// Réinitialisation synthé
+document.getElementById("synthReset").onclick = () => {
+  synthSegments = [];
+  renderSynthSegments();
+};
+
+// Fonction d'affichage/édition dynamique des segments
+function renderSynthSegments() {
+  const container = document.getElementById("synthContainer");
+  container.innerHTML = "";
+
+  if (synthSegments.length === 0) {
+    container.innerHTML = `<p style="color:#bbb;font-style:italic;">Ajoute un segment de vibration ou une pause</p>`;
+  }
+
+  synthSegments.forEach((seg, idx) => {
+    const div = document.createElement("div");
+    div.className = "form-group";
+    div.style.display = "flex";
+    div.style.alignItems = "center";
+    div.style.gap = "8px";
+    div.style.marginBottom = "6px";
+
+    let html = "";
+    if (seg.type === "vibration") {
+      html += `💥 <label>Durée</label>
+        <input type="number" value="${seg.duration}" min="20" max="4000" step="10" style="width:60px"
+          onchange="updateSynthSegment(${idx}, 'duration', this.value)">
+        <label>Intensité</label>
+        <input type="number" value="${seg.intensity}" min="1" max="255" step="1" style="width:55px"
+          onchange="updateSynthSegment(${idx}, 'intensity', this.value)">
+      `;
+    } else {
+      html += `⏸️ <label>Pause</label>
+        <input type="number" value="${seg.duration}" min="10" max="4000" step="10" style="width:60px"
+          onchange="updateSynthSegment(${idx}, 'duration', this.value)">
+      `;
+    }
+    html += `<button onclick="deleteSynthSegment(${idx})" class="btn-accueil" style="padding:2px 9px;">❌</button>`;
+    div.innerHTML = html;
+    container.appendChild(div);
+  });
+
+  updateSynthPatternDisplay();
+}
+
+// Mise à jour d'un segment
+window.updateSynthSegment = function(idx, field, value) {
+  if (synthSegments[idx]) {
+    if (field === "duration") synthSegments[idx].duration = parseInt(value);
+    if (field === "intensity") synthSegments[idx].intensity = parseInt(value);
+    renderSynthSegments();
+  }
+}
+
+// Suppression d'un segment
+window.deleteSynthSegment = function(idx) {
+  synthSegments.splice(idx, 1);
+  renderSynthSegments();
+}
+
+// Affichage pattern actuel
+function updateSynthPatternDisplay() {
+  const pattern = synthSegments.map(seg => seg.duration);
+  const amplitude = synthSegments.map(seg => seg.type === "vibration" ? seg.intensity : 0);
+  document.getElementById("synthPatternDisplay").innerHTML =
+    `<b>Pattern :</b> [${pattern.join(", ")}]<br><b>Amplitude :</b> [${amplitude.join(", ")}]`;
+}
+
+// Tester la vibration sur Android/Web
+document.getElementById("synthPlayBtn").onclick = () => {
+  // Génère le pattern
+  const pattern = synthSegments.map(seg => seg.duration);
+
+  if ("vibrate" in navigator && navigator.vibrate) {
+    navigator.vibrate(0); // Stoppe une vibration en cours
+    navigator.vibrate(pattern); // Joue le pattern
+  } else {
+    alert("❌ Vibration non supportée sur ce navigateur.");
+  }
+
+  // Optionnel : feedback visuel
+  simulateVisualFeedback(pattern);
+};
+
+// Export Android pattern+amplitude (.json)
+document.getElementById("synthExportBtn").onclick = () => {
+  if (!synthSegments.length) {
+    alert("Ajoute d'abord des segments !");
+    return;
+  }
+  const pattern = synthSegments.map(seg => seg.duration);
+  const amplitude = synthSegments.map(seg => seg.type === "vibration" ? seg.intensity : 0);
+
+  const exportData = {
+    pattern,
+    amplitude
+  };
+
+  const blob = new Blob([JSON.stringify(exportData, null, 2)], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+
+  // Téléchargement auto
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = "pattern_android.json";
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }, 100);
+};
+
+// Export iOS .ahap (.json)
+document.getElementById("synthDownloadAhapBtn").onclick = () => {
+  if (!synthSegments.length) {
+    alert("Ajoute d'abord des segments !");
+    return;
+  }
+
+  // Génération événements AHAP
+  let time = 0;
+  const ahapEvents = [];
+  synthSegments.forEach(seg => {
+    if (seg.type === 'vibration') {
+      ahapEvents.push({
+        Time: +(time / 1000).toFixed(3),
+        EventType: "HapticContinuous",
+        EventDuration: +(seg.duration / 1000).toFixed(3),
+        EventParameters: [
+          { ParameterID: "HapticIntensity", ParameterValue: +(seg.intensity / 255).toFixed(2) },
+          { ParameterID: "HapticSharpness", ParameterValue: 0.5 }
+        ]
+      });
+    }
+    time += seg.duration;
+  });
+
+  const ahap = {
+    Version: 1,
+    Pattern: ahapEvents.map(event => ({ Event: event }))
+  };
+
+  const blob = new Blob([JSON.stringify(ahap, null, 2)], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+
+  // Téléchargement auto
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = "pattern_ios.ahap";
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }, 100);
+};
