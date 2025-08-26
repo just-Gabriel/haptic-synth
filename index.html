@@ -117,6 +117,35 @@
           <button type="submit">Convertir</button>
         </form>
       </div>
+
+      <!-- Carte synthétiseur haptique -->
+       <div class="card" id="card-synthe">
+        <h2>🎛️Céer une vibration personnalisée</h2>
+       <div id="synthContainer">
+    <!-- Ici viendra la timeline/les segments JS -->
+    </div>
+
+    <div style="margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px;">
+      <button id="synthAddVibration" class="btn-accueil">+ Vibration</button>
+      <button id="synthAddPause" class="btn-accueil">+ Pause</button>
+      <button id="synthReset" class="btn-accueil" style="margin-left:auto;">Réinitialiser</button>
+   </div>
+
+    <div style="margin-top: 12px;">
+      <button id="synthPlayBtn" class="btn-accueil" style="background:#019aaf;color:#fff;">▶️ Tester la vibration</button>
+    </div>
+
+    <div id="synthPatternDisplay" style="margin-top:10px; font-size:0.95em; color:#019aaf;">
+    <!-- Pattern courant affiché ici -->
+    </div>
+
+    <div style="margin-top: 12px;">
+      <button id="synthExportBtn" class="btn-accueil">Exporter Android (.json)</button>
+      <button id="synthDownloadAhapBtn" class="btn-accueil">Exporter iOS (.ahap)</button>
+    </div>
+  </div>
+
+
     </div>
 
     <!--<script src="js/vibrationManagerAndroid.js" defer></script>-->
