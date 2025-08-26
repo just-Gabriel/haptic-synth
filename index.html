@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haptic Synth V1</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #f2f5f9;
+        margin: 0;
+        padding: 0 20px;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 30px;
+        color: #019aaf;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        flex: 1 1 300px;
+      }
+
+      .card h2 {
+        color: #019aaf;
+        margin-top: 0;
+      }
+
+      #filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      #vibrateBtn {
+        margin-top: 10px;
+        background-color: #019aaf;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      #vibrateBtn:disabled {
+        background-color: #ccc;
+      }
+
+      input[type="file"] {
+        margin-top: 10px;
+      }
+
+      button[type="submit"] {
+        margin-top: 10px;
+        background-color: #019aaf;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Synthétiseur Haptique</h1>
+
+    <audio id="pulseSound" src="public/beep.mp3" preload="auto"></audio>
+    <div id="waveContainer" class="wave-deluxe"></div>
+
+    <div class="container">
+      <!-- Carte filtres -->
+      
+      <div class="card">
+        <h2>Filtres disponibles</h2>
+        <div id="filters">
+          <!-- Les tags apparaîtront ici -->
+        </div>
+      </div>
+     	
+
+      <!-- Carte prévisualisation -->
+      <div class="card">
+        <h2>Pattern sélectionné</h2>
+        <p id="description">Clique sur un tag ci-dessus</p>
+        
+        <button id="vibrateBtn" disabled>Tester la vibration</button>
+        <p id="generatedPattern" style="font-weight: bold; color: #019aaf"></p>
+        <textarea id="ahapJson" style="width:100%; height:150px; display:none; margin-top:10px;" readonly></textarea>
+        <div id="ahapError" style="color: red; margin-top:10px; display:none;"></div>
+        <button id="downloadAhapBtn" style="margin-top:10px; display:none;">Télécharger le .ahap</button>
+
+      </div>
+
+      <!-- Carte conversion .wav -->
+      <div class="card">
+        <h2>Convertir un .wav en vibration</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+          <input type="file" name="file" accept=".wav" required />
+          <button type="submit">Convertir</button>
+        </form>
+      </div>
+    </div>
+
+    <!--<script src="js/vibrationManagerAndroid.js" defer></script>-->
+    <script src="js/script.js" defer></script>
+    <!--<script src="/synth/js/script.js?v=5" defer></script>-->
+  </body>
+</html>

@@ -1,0 +1,395 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://64.226.103.95:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Aug/2025 08:22:39] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:24:09] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:24:44] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:25:08] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:27:40] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:32:35] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:32:45] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:34:45] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:39:11] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:42:13] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:43:04] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:44:21] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:44:57] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:48:28] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:50:38] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 08:51:23] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 09:07:41] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 09:23:18] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 09:33:34] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 09:36:56] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 09:36:58] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 09:45:35] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 09:46:06] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 10:01:22] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 10:02:33] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 11:30:28] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 11:39:05] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 11:47:10] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 11:51:31] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:03:09] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:03:11] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:03:32] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:03:45] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:04:53] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:05:06] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:06:03] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:06:14] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:07:10] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:18:45] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:18:58] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:19:17] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:19:26] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:19:35] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:19:58] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:20:27] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:20:34] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:20:49] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:21:13] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:33:12] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:34:38] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:49:34] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 12:51:22] "POST /api/convert HTTP/1.0" 200 -
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'android8_original.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_2_reconstructed64.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'clicks_5x.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'beep_1000Hz_0.5s.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'android8_original.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_2_original64.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_2_original64.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS40_original5.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/x-wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/x-wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/x-wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/x-wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/x-wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_3_original6.wav' ('audio/x-wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_3_original6.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_original182.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_original182.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_original182.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_original43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_15_reconstructed43.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS40_reconstructed5.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_2_original64.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS41_reconstructed55.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS41_reconstructed55.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_14_original50.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS32_reconstructed24.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_12_reconstructed112.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS38_original9.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_7_reconstructed146.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_iOS_7_reconstructed146.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_reconstructed107.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_original182.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_3_original178.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_original200.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_reconstructed85.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_original200.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : ImmutableMultiDict([('file', <FileStorage: 'signal_android_1_original200.wav' ('audio/wav')>)])
+📥 Requête reçue depuis : 127.0.0.1
+🔍 Fichiers présents : 127.0.0.1 - - [25/Aug/2025 13:34:06] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:34:17] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:34:26] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:35:01] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:35:36] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:36:47] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:37:12] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:37:38] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:37:49] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:38:55] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:39:49] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:40:01] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 13:41:11] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 14:09:26] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 14:09:56] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 14:17:16] "[33mGET /api/login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 14:40:18] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 15:05:01] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 15:05:25] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 15:05:53] "POST /api/convert HTTP/1.0" 200 -
+3.149.59.26 - - [25/Aug/2025 15:49:43] "GET / HTTP/1.1" 200 -
+3.149.59.26 - - [25/Aug/2025 15:54:20] code 400, message Bad request version ('À\x14À')
+3.149.59.26 - - [25/Aug/2025 15:54:20] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¢\x87þ\x0bec<é\x87n;1¡{<Ã\x01`\x1e\x83\x84d/7\x04´Ê\x19Ó\x906¹\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.149.59.26 - - [25/Aug/2025 15:56:07] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.149.59.26 - - [25/Aug/2025 15:56:07] "[31m[1mSSH-2.0-Go[0m" 400 -
+3.149.59.26 - - [25/Aug/2025 15:57:40] code 400, message Bad request version ('À\x14À')
+3.149.59.26 - - [25/Aug/2025 15:57:40] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9c³\x10\x8cÉ¤xëhÀæ¯ý²Å\x06-]Ñ\x85æ\x17ï"\x9f\x94Uî÷;\x07Z\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+178.22.24.42 - - [25/Aug/2025 16:00:46] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+178.22.24.42 - - [25/Aug/2025 16:00:46] "[31m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00[0m" 400 -
+127.0.0.1 - - [25/Aug/2025 17:30:26] "[33mGET /api/v4 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:26] "[33mGET /api/info HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:28] "[33mGET /api/chat HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:29] "[33mGET /api/authenticate HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:32] "[33mGET /api/apidocs/swagger.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:32] "[33mGET /api/internal/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:37] "[33mGET /api/login.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:39] "[33mGET /api/env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:41] "[33mGET /api/.env.back HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:43] "[33mGET /api/aws/credentials.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:45] "[33mGET /api/v1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:47] "[33mGET /api/token HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:47] "[33mGET /api/search HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:49] "[33mGET /api/config.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:52] "[33mGET /api/docs/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:54] "[33mGET /api/swagger.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:55] "[33mGET /api/jsonws/invoke HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:30:56] "[33mGET /api/signup HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:00] "[33mGET /api/.環境 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:01] "[33mGET /api/debug HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:02] "[33mGET /api/認証/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:04] "[33mGET /api/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:05] "[33mGET /api/sendgrid/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:07] "[33mGET /api/batch HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:07] "[33mGET /api/authentificationentifizieren HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:08] "[33mGET /api/info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:08] "[33mGET /api/config/ses.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:09] "[33mGET /api/swagger HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:10] "[33mGET /api/logzinhos/erro.log HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:10] "[33mGET /api/swagger.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:11] "[33mGET /api/profile HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:12] "[33mGET /api/docs/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:13] "[33mGET /api/anmelden/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:13] "[33mGET /api/autenticaenticate HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:14] "[33mGET /api/users.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:16] "[33mGET /api/authentifizieren HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:17] "[33mGET /api/.env.sample HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:18] "[33mGET /api/configurationtion/aws.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:19] "[33mGET /api/timelion/run HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:19] "[33mGET /api/registrieren HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:20] "[33mGET /api/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:21] "[33mGET /api/_swagger_/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:21] "[33mGET /api/passwort/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:22] "[33mGET /api/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:22] "[33mGET /api/情報.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:25] "[33mGET /api/user HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:26] "[33mGET /api/jsonws HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:26] "[33mGET /api/push HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:29] "[33mGET /api/private/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:30] "[33mGET /api/ausloggen/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:30] "[33mGET /api/reset HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:30] "[33mGET /api/v2 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:31] "[33mGET /api/password HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:33] "[33mGET /api/user/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:34] "[33mGET /api/delete HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:34] "[33mGET /api/journalzinhos/erro.log HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:34] "[33mGET /api/src/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:35] "[33mGET /api/register HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:37] "[33mGET /api/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:38] "[33mGET /api/forgot HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:38] "[33mGET /api/proxy HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:39] "[33mGET /api/v1/swagger.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:41] "[33mGET /api/vendor/phpunit/phpunit/phpunit HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:43] "[33mGET /api/logout HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:44] "[33mGET /api/デバッグ.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:45] "[33mGET /api/error_log HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:50] "[33mGET /api/package_search/v4/documentation HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:50] "[33mGET /api/cask/graphql HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:52] "[33mGET /api/パスワード HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:58] "[33mGET /api/generate HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:58] "[33mGET /api/authentification HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:58] "[33mGET /api/v2/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:31:58] "[33mGET /api/copy HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:00] "[33mGET /api/swagger/ui/index HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:01] "[33mGET /api/hochladen HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:01] "[33mGET /api/セッション HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:01] "[33mGET /api/heartbeat HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:03] "[33mGET /api/リセット HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:03] "[33mGET /api/experiments/configurations HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:04] "[33mGET /api/swagger/swagger HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:05] "[33mGET /api/swagger.yaml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:06] "[33mGET /api/configurationtion.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:08] "[33mGET /api/application.wadl HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:10] "[33mGET /api/2/explore/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:11] "[33mGET /api/logs/error.log HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:12] "[33mGET /api/passwort/vergessen HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:12] "[33mGET /api/debug.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:12] "[33mGET /api/v1/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:13] "[33mGET /api/passwort/zurücksetzen/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:14] "[33mGET /api/config/sendgrid.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:14] "[33mGET /api/keys HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:19] "[33mGET /api/tags HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:20] "[33mGET /api/v1/swagger.yaml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:21] "[33mGET /api/ps HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:22] "[33mGET /api/connexion HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:23] "[33mGET /api/api HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:23] "[33mGET /api/version HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:23] "[33mGET /api/サインイン HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:24] "[33mGET /api/credentials.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:24] "[33mGET /api/.env.save HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:25] "[33mGET /api/docs HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:26] "[33mGET /api/api-docs HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:27] "[33mGET /api/authentificationenticate HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:28] "[33mGET /api/.env.production HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:30] "[33mGET /api/2/issue/createmeta HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:30] "[33mGET /api/embeddings HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:31] "[33mGET /api/v1/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:33] "[33mGET /api/v2/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:33] "[33mGET /api/v2/swagger.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:37] "[33mGET /api/suche HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:37] "[33mGET /api/upload HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:38] "[33mGET /api/settings.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:38] "[33mGET /api/v2/helpdesk/discover HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:40] "[33mGET /api/v1/debug HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:40] "[33mGET /api/experiments HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:41] "[33mGET /api/spec/swagger.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:41] "[33mGET /api/create HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:42] "[33mGET /api/session HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:43] "[33mGET /api/embed HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:43] "[33mGET /api/pull HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:43] "[33mGET /api/swagger.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:46] "[33mGET /api/.env.staging HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:46] "[33mGET /api/database.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:48] "[33mGET /api/index.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:49] "[33mGET /api/.env.example HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:51] "[33mGET /api/credential.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:52] "[33mGET /api/v3 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:54] "[33mGET /api/jeton/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:56] "[33mGET /api/auth HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:57] "[33mGET /api/登録 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:58] "[33mGET /api/konfig/aws.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:58] "[33mGET /api/v2/swagger.yaml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:32:59] "[33mGET /api/login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:00] "[33mGET /api/セッション/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:00] "[33mGET /api/ログイン/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:03] "[33mGET /api/apidocs HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:03] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:03] "[33mGET /api/サインアウト HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:04] "[33mGET /api/passwort/vergessen/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:05] "[33mGET /api/show HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:07] "[33mGET /api/swagger-ui.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:07] "[33mGET /api/swagger/static/index.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:07] "[33mGET /api/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:07] "[33mGET /api/識別/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:09] "[33mGET /api/user.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:11] "[33mGET /api/バックアップ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:11] "[33mGET /api/signout HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:13] "[33mGET /api/snapshots HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:14] "[33mGET /api/config/aws.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:15] "[33mGET /api/whoami HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:16] "[33mGET /api/token/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:16] "[33mGET /api/swagger/index.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:16] "[33mGET /api/einloggen/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:16] "[33mGET /api/config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:17] "[33mGET /api/__swagger__/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:18] "[33mGET /api/.env.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Aug/2025 17:33:20] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+45.82.78.104 - - [25/Aug/2025 19:11:32] code 400, message Bad request version ('kðU\x89')
+45.82.78.104 - - [25/Aug/2025 19:11:32] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03/îéb¨.\x19¶Dn#\x1bòZ±\x12'Y*\x1dôþ\x85\x9d¹R8ÉkCâF kðU\x89[0m" 400 -
+45.82.78.104 - - [25/Aug/2025 19:11:37] code 400, message Bad request version ('À\x13À')
+45.82.78.104 - - [25/Aug/2025 19:11:37] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03\x9b1X°þý%Å\x10¶\x0e³³Y¯\x99\x1cÏ$;\x15ÎðEx\x01®Ä\x176I! p¨\x0eZ\x99\x9d\x98¥¤ê\x8e\x9cþ\\Ì\x04\x0b\x11fü_èüØ }\x86\x02Àïét\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+45.82.78.104 - - [25/Aug/2025 19:11:38] "GET / HTTP/1.1" 200 -
+45.82.78.113 - - [25/Aug/2025 19:11:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+205.210.31.45 - - [25/Aug/2025 21:40:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 21:43:47] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [25/Aug/2025 21:50:36] "POST /api/convert HTTP/1.0" 200 -
+172.104.11.46 - - [25/Aug/2025 23:43:35] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+172.104.11.46 - - [25/Aug/2025 23:43:35] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+172.104.11.46 - - [25/Aug/2025 23:43:35] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+172.104.11.46 - - [25/Aug/2025 23:43:35] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+205.210.31.234 - - [26/Aug/2025 00:47:15] "GET / HTTP/1.1" 200 -
+45.33.109.8 - - [26/Aug/2025 01:32:39] "GET / HTTP/1.1" 200 -
+172.105.128.11 - - [26/Aug/2025 01:32:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2025 04:11:32] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+162.142.125.214 - - [26/Aug/2025 05:00:25] code 400, message Bad request version ('À\x14À')
+162.142.125.214 - - [26/Aug/2025 05:00:25] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ó\x09\x16º\x02è¹·\x9d²-»¬½\x14*ÉVqyLàuÙs\x16=\x93^%Qê \x0e3\x0fXW\x94nò\x9a\x94ß\x87Ï%\x85cb\x0c¢ïm\x02ïú$àÃÓjC(×\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+162.142.125.214 - - [26/Aug/2025 05:00:28] "GET / HTTP/1.1" 200 -
+162.142.125.214 - - [26/Aug/2025 05:00:34] "GET / HTTP/1.1" 200 -
+162.142.125.214 - - [26/Aug/2025 05:00:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.214 - - [26/Aug/2025 05:00:36] code 505, message Invalid HTTP version (2.0)
+162.142.125.214 - - [26/Aug/2025 05:00:36] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.214 - - [26/Aug/2025 05:00:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.214 - - [26/Aug/2025 05:00:44] code 505, message Invalid HTTP version (2.0)
+162.142.125.214 - - [26/Aug/2025 05:00:44] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.214 - - [26/Aug/2025 05:00:48] code 400, message Bad request version ('À\x14À')
+162.142.125.214 - - [26/Aug/2025 05:00:48] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03]DçCÖ\x83Ýy@¤«\x8b\x9a4\x93\x03\x17\x12ECÜûPRä?\x80ª\x1aÄpß ÇQ{`!Ý×«BV\x84\x19ù\x97¡ù´:¬F¶YùH5·ª&\x01\x0d[\x1a\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+162.142.125.214 - - [26/Aug/2025 05:00:48] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:07] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:08] "[33mGET /api/shared/config/config.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:08] "[33mGET /api/shared/config.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:08] "[33mGET /api/shared/config/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:08] "[33mGET /api/shared/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:08] "[33mGET /api/config.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:09] "[33mGET /api/config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:09] "[33mGET /api/objects/codes.php.save HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:24:09] "[33mGET /api/config/config.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 05:55:52] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Aug/2025 07:11:40] "POST /api/convert HTTP/1.0" 200 -
+18.97.26.21 - - [26/Aug/2025 07:16:09] code 400, message Bad request version ("¸w\x8e\x14\x1aß\x109b\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+18.97.26.21 - - [26/Aug/2025 07:16:09] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ô\x81_ØhDâ\x09ö\x9f\x9fu7ã\x1aO;wÙþkQ6ßÖÙo-ò\x088Þ @:iÌl>O\x1e¥p\x92\x1d¦Ç`\x18Íñ\x06°L¬\x0b¸w\x8e\x14\x1aß\x109b\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À­À®À¬À$À(À#À'À[0m" 400 -
+18.97.26.21 - - [26/Aug/2025 07:16:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2025 07:36:42] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [26/Aug/2025 07:37:28] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [26/Aug/2025 07:42:47] "POST /api/convert HTTP/1.0" 200 -
+127.0.0.1 - - [26/Aug/2025 07:43:05] "POST /api/convert HTTP/1.0" 200 -

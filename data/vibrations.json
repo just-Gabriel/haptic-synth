@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "label": "KEYBOARD_RELEASE",
+    "pattern": [0, 50, 50, 100],
+    "description": "Relâchement de touche, discret mais perceptible",
+    "tags": ["tactile", "tap", "léger"]
+  },
+  {
+    "id": 2,
+    "label": "VIRTUAL_KEY_RELEASE",
+    "pattern": [0, 30, 30, 70],
+    "description": "Relâchement d'une touche virtuelle",
+    "tags": ["virtuel", "interface", "léger"]
+  },
+  {
+    "id": 3,
+    "label": "CLOCK_TICK",
+    "pattern": [0, 10, 20, 10],
+    "description": "Petit tic-tac discret et rythmique",
+    "tags": ["rythmé", "subtil", "court"]
+  },
+  {
+    "id": 4,
+    "label": "TEXT_HANDLE_MOVE",
+    "pattern": [0, 40, 40, 80],
+    "description": "Déplacement d'un curseur de texte",
+    "tags": ["glissement", "interface", "fin"]
+  },
+  {
+    "id": 5,
+    "label": "GESTURE_END",
+    "pattern": [0, 60, 60, 120],
+    "description": "Fin d’un geste tactile",
+    "tags": ["arrêt", "brut", "fin"]
+  },
+  {
+    "id": 6,
+    "label": "VIRTUAL_KEY",
+    "pattern": [0, 30],
+    "description": "Appui simple sur une touche virtuelle",
+    "tags": ["confirmation", "tactile", "court"]
+  },
+  {
+    "id": 7,
+    "label": "KEYBOARD_PRESS",
+    "pattern": [0, 50],
+    "description": "Appui sur une touche physique",
+    "tags": ["clavier", "tap", "confirmation"]
+  },
+  {
+    "id": 8,
+    "label": "DRAG_START",
+    "pattern": [0, 100, 50, 100],
+    "description": "Début d’un déplacement glissé",
+    "tags": ["glissé", "départ", "interface"]
+  },
+  {
+    "id": 9,
+    "label": "CONTEXT_CLICK",
+    "pattern": [0, 100],
+    "description": "Clic contextuel (clic droit)",
+    "tags": ["clic", "système", "net"]
+  },
+  {
+    "id": 10,
+    "label": "GESTURE_START",
+    "pattern": [0, 70, 70, 140],
+    "description": "Début d’un geste tactile",
+    "tags": ["mouvement", "initiation", "interface"]
+  },
+  {
+    "id": 11,
+    "label": "CONFIRM",
+    "pattern": [0, 200],
+    "description": "Vibration franche pour valider une action",
+    "tags": ["confirmation", "succès", "claire"]
+  },
+  {
+    "id": 12,
+    "label": "LONG_PRESS",
+    "pattern": [0, 400],
+    "description": "Pression longue, ressentie intensément",
+    "tags": ["pression", "maintenu", "intense"]
+  },
+  {
+    "id": 13,
+    "label": "REJECT",
+    "pattern": [0, 50, 50, 50, 50, 50],
+    "description": "Triple vibration sèche pour indiquer un refus",
+    "tags": ["rejet", "erreur", "brutal"]
+  },
+  {
+    "id": 14,
+    "label": "TOGGLE_ON",
+    "pattern": [0, 150],
+    "description": "Vibration douce pour activer une option",
+    "tags": ["marche", "changement", "fluide"]
+  },
+  {
+    "id": 15,
+    "label": "TOGGLE_OFF",
+    "pattern": [0, 100],
+    "description": "Vibration sèche pour désactiver une option",
+    "tags": ["arrêt", "toggle", "fermeté"]
+  },
+  {
+    "id": 16,
+    "label": "GESTURE_THRESHOLD_ACTIVATE",
+    "pattern": [0, 200, 50, 200],
+    "description": "Dépassement d’un seuil de geste",
+    "tags": ["activation", "seuil", "alerte"]
+  },
+  {
+    "id": 17,
+    "label": "GESTURE_THRESHOLD_DEACTIVATE",
+    "pattern": [0, 200, 50, 100],
+    "description": "Retour en dessous du seuil de geste",
+    "tags": ["désactivation", "seuil", "retour"]
+  },
+  {
+    "id": 18,
+    "label": "KEYBOARD_TAP",
+    "pattern": [0, 20],
+    "description": "Micro tap discret pour saisie rapide",
+    "tags": ["tap", "micro", "furtif"]
+  },
+  {
+    "id": 19,
+    "label": "SEGMENT_TICK",
+    "pattern": [0, 10],
+    "description": "Courte vibration rythmique, type minuteur",
+    "tags": ["tic", "court", "rythme"]
+  },
+  {
+    "id": 20,
+    "label": "SEGMENT_FREQUENT_TICK",
+    "pattern": [0, 5],
+    "description": "Vibration ultra rapide, effet d'impulsion répétée",
+    "tags": ["fréquent", "urgent", "notification"]
+  }
+]

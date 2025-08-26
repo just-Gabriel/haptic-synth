@@ -1,0 +1,115 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  padding: 30px;
+  background: #f2f6f9;
+  margin: 0;
+  color: #333;
+}
+
+h1 {
+  color: #019aaf;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 10px 22px;
+  background-color: #019aaf;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(1, 154, 175, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #017e91;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#preview {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  margin-bottom: 16px;
+  color: #666;
+  text-align: center;
+}
+
+#tags {
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#tags button {
+  background-color: #e6f7fb;
+  color: #019aaf;
+  border: 1px solid #019aaf;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#tags button:hover {
+  background-color: #019aaf;
+  color: white;
+}
+
+#waveContainer.wave-deluxe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.wave-circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #019aaf;
+  opacity: 0.5;
+  animation: deluxePulse 0.8s ease-out;
+}
+
+@keyframes deluxePulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(2.4);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(3.8);
+    opacity: 0;
+  }
+}
