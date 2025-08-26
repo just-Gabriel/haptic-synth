@@ -39,11 +39,17 @@
 
       <!-- Carte conversion .wav -->
       <div class="card">
-        <h2>Convertir un .wav en vibration</h2>
-        <form id="uploadForm" enctype="multipart/form-data">
-          <input type="file" name="file" accept=".wav" required />
-          <button type="submit">Convertir</button>
-        </form>
+       <h2>Convertir un .wav en vibration</h2>
+       <form id="uploadForm" enctype="multipart/form-data">
+
+      <div class="custom-file-upload">
+        <label for="fileInput" id="fileLabel">Choisir un .wav</label>
+        <input type="file" name="file" id="fileInput" accept=".wav" required />
+        <span id="fileChosen" class="file-chosen-below">Aucun fichier choisi</span>
+      </div>
+
+        <button type="submit">Convertir</button>
+       </form> 
       </div>
 
       <!-- Carte synthétiseur haptique -->

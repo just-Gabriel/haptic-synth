@@ -386,3 +386,9 @@ document.getElementById("synthDownloadAhapBtn").onclick = () => {
     URL.revokeObjectURL(url);
   }, 100);
 };
+
+// Custom file input (.wav) pour affichage du nom du fichier sélectionné
+document.getElementById('fileInput').addEventListener('change', function(e) {
+  const file = e.target.files[0];
+  document.getElementById('fileChosen').textContent = file ? file.name : 'Aucun fichier choisi';
+});

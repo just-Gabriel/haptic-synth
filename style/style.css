@@ -312,25 +312,83 @@ textarea, #ahapJson {
 
 #synthPlayBtn,
 #synthPlayBtn.btn-accueil {
-  background: linear-gradient(90deg, #36fbe3 10%, #01c8ee 60%, #ae00ff 120%);
-  color: #fff;
-  border-radius: 15px;
+  background: linear-gradient(90deg, #36fbe3 20%, #ae00ff 100%);
+  color: #232946;
+  border-radius: 13px;
   font-weight: 700;
-  padding: 14px 0;
-  margin: 22px 0 16px 0;
-  font-size: 1.13em;
-  box-shadow: 0 2px 14px #36fbe380, 0 2px 28px #ff7be520;
+  padding: 10px 30px;
+  margin: 14px 0 16px 0;
+  font-size: 1.1em;
+  box-shadow: 0 1px 9px #ae00ff40;
   border: none;
-  transition: background 0.18s, color 0.18s, transform 0.14s;
+  transition: background 0.15s, color 0.15s, transform 0.10s, box-shadow 0.18s;
   display: block;
   width: 100%;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
 }
 
 #synthPlayBtn:hover,
 #synthPlayBtn:focus {
-  background: linear-gradient(90deg, #ae00ff 0%, #36fbe3 90%);
+  background: linear-gradient(90deg, #ff7be5 0%, #36fbe3 80%);
   color: #fff;
-  transform: translateY(-2.5px) scale(1.07);
-  box-shadow: 0 6px 24px #ae00ff60, 0 1px 10px #36fbe3a0;
+  box-shadow: 0 4px 18px #36fbe3aa, 0 0.5px 2px #ff7be560;
+  transform: translateY(-1.5px) scale(1.06);
+
 }
+
+.custom-file-upload {
+  display: flex;
+  flex-direction: column;   /* ⬅️ colonne au lieu de ligne */
+  align-items: flex-start;
+  gap: 7px;
+  margin-bottom: 12px;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload label {
+  background: linear-gradient(90deg, #36fbe3 20%, #ae00ff 100%);
+  color: #232946;
+  font-weight: 700;
+  border-radius: 13px;
+  padding: 10px 24px;
+  cursor: pointer;
+  box-shadow: 0 1px 9px #ae00ff40;
+  border: none;
+  transition: background 0.16s, color 0.16s, transform 0.10s;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  margin-bottom: 3px;
+}
+
+.custom-file-upload label:hover,
+.custom-file-upload label:focus {
+  background: linear-gradient(90deg, #ff7be5 0%, #36fbe3 80%);
+  color: #fff;
+  transform: translateY(-1.5px) scale(1.06);
+}
+
+/* Nouveau style pour le nom du fichier en dessous */
+.file-chosen-below {
+  display: block;
+  max-width: 230px;
+  margin-left: 0;
+  margin-top: 2px;
+  color: #36fbe3;
+  font-size: 1em;
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.3s;
+}
+
+@media (max-width: 900px) {
+  .file-chosen-below {
+    max-width: 120px;
+    font-size: 0.95em;
+  }
+}
+
